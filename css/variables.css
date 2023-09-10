@@ -1,0 +1,13 @@
+:root {
+  --primary-color: #f9ffcf;
+  --black-color: #3e3131;
+}
+
+main{
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+}
+
+.text-serif {
+  font-family: "DM Serif Display", serif;
+}

@@ -1,0 +1,46 @@
+.features {
+  margin-top: 4rem;
+}
+
+.features-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.feature {
+  text-align: center;
+  padding: 1rem;
+}
+
+.feature > p {
+  padding: 1rem 0;
+}
+
+.feature > img {
+  width: 100%;
+  border-radius: 20px;
+  max-width: 450px;
+  /* para que no quede cuadrada la imagen */
+  aspect-ratio: 2/3;
+  /* para que no se distorsione la imagen */
+  object-fit: cover;
+}
+
+.feature-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+
+@media screen and (min-width: 768px) {
+  .features-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .feature {
+    width: 100%;
+  }
+}

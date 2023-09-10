@@ -1,0 +1,58 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 3rem;
+  gap: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.links a {
+  color: var(--black-color);
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.links ul {
+  display: flex;
+  flex-direction: column;
+  /* list-style: none;  quedan los tresa centrados horizontalmente*/
+  gap: 1rem;
+}
+
+.copyrigth p {
+  padding: 0.25rem 0;
+}
+
+.footer-circle {
+  background-color: var(--primary-color);
+  width: 120%;
+  height: 120%;
+  position: absolute;
+  bottom: -120px;
+  z-index: -1;
+  border-radius: 50% 50% 0 0;
+}
+
+.footer-floating {
+  position: absolute;
+  width: 140px;
+  height: auto;
+  bottom: 0;
+  left: 0;
+  transform: translate(0, 10%);
+}
+
+.hero-button:hover {
+  background-color: var(--black-color);
+  color: #fff;
+  cursor: pointer;
+  padding: 1em 3em;
+  border-radius: 30px;
+  width: fit-content;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
